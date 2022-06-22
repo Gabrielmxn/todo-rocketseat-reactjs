@@ -1,0 +1,82 @@
+.containerTasksList{
+  max-width: 736px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  font-size: 0.875rem;
+  gap: 1.33rem;
+  padding: 1.33rem;
+  background: var(--gray-500);
+  border-radius: 8px;
+ 
+}
+.containerTasksList + .containerTasksList{
+  margin-top: 1rem;
+}
+.checkButton{
+  background: transparent;
+  line-height:0;
+  border: none;
+  cursor: pointer;
+
+}
+
+.check{
+  display: flex;
+  width: 1.090625rem;
+  height: 1.090625rem;
+  border-radius: 50%;
+  border: 1px solid var(--blue);
+}
+.check:hover{
+  border: 1px solid var(--blue-dark);
+}
+.checkIn {
+  background: var(--purple-dark);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1.090625rem;
+
+  height: 1.090625rem;
+  border-radius: 50%;
+  border: 1px solid var(--blue);
+}
+.containerTasksList .checkIn svg{
+  color: var(--gray-100);
+}
+
+.checkIn:hover{
+  background: var(--purple);
+}
+.checkAndText{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+  
+  color: var(--gray-100);
+}
+.checkAndTextChecked{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+  
+  text-decoration:line-through;
+  color: var(--gray-300);
+
+}
+.deleteButton{
+  background: transparent;
+  line-height:0;
+  border: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  padding: 0.2rem;
+  color: var(--gray-300);
+}
+.deleteButton:hover{
+  background: var(--gray-400);
+  color: var(--danger);
+}

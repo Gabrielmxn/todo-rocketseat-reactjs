@@ -1,0 +1,32 @@
+.header{
+  max-width: 736px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 4rem auto 1.5rem auto;
+}
+
+.tasksCreate{
+  color: var(--blue);
+}
+
+.tasksConclued{
+  color: var(--purple);
+}
+
+.numberToDoList{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  background-color: var(--gray-400);
+  color: var(--gray-200);
+  padding: 0.125em 0.5rem;
+  border-radius: 999px;
+}
+
+.titleViewToDoList{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
