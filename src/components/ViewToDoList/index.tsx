@@ -26,7 +26,6 @@ export function ViewToDoList({ tasks, handleCheckTasks, handleTrashTasks }: Task
       </header>
       {tasks.length === 0 ? <NoTaskRegistered /> : ''}
       {tasks.map(response => { 
-        console.log(response)
         return(
           <TasksList 
             key = {response.id}

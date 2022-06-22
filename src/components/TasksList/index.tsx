@@ -1,5 +1,6 @@
 import { Trash, Check } from 'phosphor-react';
 import { TasksType } from '../../TasksType';
+
 import styles from './TasksList.module.css';
 interface TasksTypeProps {
   check: boolean;
@@ -11,7 +12,6 @@ interface TasksTypeProps {
 
 
 export function TasksList({id,  content, check, handleCheckTasks, handleTrashTasks}: TasksTypeProps){
-  console.log(id)
   function onCheckTasks(){
   
     handleCheckTasks({
